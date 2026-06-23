@@ -324,10 +324,11 @@ Password:
 
 ```json
 {
-  "nome": "Maria Silva",
-  "email": "maria@email.com",
-  "numeroCartao": "1234567890123456",
-  "cartaoAtivo": true
+  "nome": "string",
+  "email": "string",
+  "numeroCartao": "string",
+  "dataValidade": "string",
+  "cvv": "string"
 }
 ```
 
@@ -339,8 +340,8 @@ Password:
 
 ```json
 {
-  "idConta": 1,
-  "plano": "PREMIUM"
+  "idConta": 0,
+  "idPlano": 0
 }
 ```
 
@@ -352,9 +353,9 @@ Password:
 
 ```json
 {
-  "idConta": 1,
-  "valor": 29.90,
-  "comerciante": "Spotify"
+  "idConta": 0,
+  "valor": 0,
+  "comerciante": "string"
 }
 ```
 
@@ -411,7 +412,7 @@ Password:
 
 # 👨‍💻 Autora
 
-Letícia Gomes Projeto desenvolvido para a disciplina de Projeto de Bloco de Desenvolvimento de Softwares Escaláveis.
+Letícia Gomes Projeto desenvolvido para a disciplina de DDD do bloco de Desenvolvimento de Softwares Escaláveis.
 
 ---
 
