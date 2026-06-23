@@ -93,7 +93,7 @@ A aplicação foi construída utilizando **DDD (Domain-Driven Design)** com **Bo
 
 ## Diagrama de Contextos
 
-![Texto Alternativo](img\music-streaming-api.drawio.png)
+![Diagrama de Contextos](img/music-streaming-api.drawio.png)
 
 ## Contextos Delimitados
 
@@ -133,19 +133,19 @@ Responsável por:
 
 ### Entity
 
-![Texto Alternativo](img\CamadaEntity.png)
+![Camada Entity](img/CamadaEntity.png)
 
 ### Controller
 
-![Texto Alternativo](img\CamadaController.png)
+![Camada Controller](img/CamadaController.png)
 
 ### Service
 
-![Texto Alternativo](img\CamadaService.png)
+![Camada Service](img/CamadaService.png)
 
 ### Repository
 
-![Texto Alternativo](img\CamadaRepository.png)
+![Camada Repository](img/CamadaRepository.png)
 
 ---
 
