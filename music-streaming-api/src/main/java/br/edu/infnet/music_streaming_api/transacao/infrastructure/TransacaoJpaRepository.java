@@ -13,8 +13,7 @@ import java.util.List;
 @Repository
 public interface TransacaoJpaRepository extends JpaRepository<Transacao, Long> {
     @Query("SELECT t FROM Transacao t WHERE t.idConta = :idConta AND t.dataHora >= :desde")
-    List<Transacao> buscarRecentesPorConta(@Param("idConta") Long idConta,
-                                           @Param("desde") LocalDateTime desde);
+    List<Transacao> buscarRecentesPorConta(@Param("idConta") Long idConta, @Param("desde") LocalDateTime desde);
 
     @Query("SELECT t FROM Transacao t WHERE t.idConta = :idConta " +
             "AND t.valor = :valor AND t.comerciante = :comerciante AND t.dataHora >= :desde")
